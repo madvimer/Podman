@@ -1,0 +1,7 @@
+Limitations of Docker 
+
+- A single process could be a single point of failure.
+- This process owned all the child processes (the running containers).
+- If a failure occurred, then there were orphaned processes.
+- Building containers led to security vulnerabilities.
+- All Docker operations had to be conducted by a user (or users) with the same full root authority.
