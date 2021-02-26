@@ -23,3 +23,5 @@ If you have an ongoing project that depends on Docker specifics (such as Docker 
 Depending on your project’s goal, it may be useful to combine the two tools. If you have increased security requirements in production, you could continue to use Docker on the development machines and switch to Podman in the runtime environments (dev, int, prod and so on). This combination is possible because both tools are OCI-compliant, and Podman supports Dockerfiles and image specifics. These kinds of combinations must be validated carefully as they require knowledge of both tools.
 
 Podman is growing, and its developers are continually adding new functionalities. They recently added a RESTful API that enables remote control of Podman. Previously only a varlink API was available for remote control. According to the road map, improvements will be made to the RESTful API and to the rootless feature. In addition, the developers are going to build an integration with CRI-O.
+
+-------------
